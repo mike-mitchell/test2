@@ -1,0 +1,73 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "aaevpDYEJeR_QEvNX", 
+        "name": "admin"
+    }, 
+    "createdDate": "2019-06-29T19:26:11.014Z", 
+    "layout": [
+        {
+            "name": "Text", 
+            "visible": true, 
+            "required": false, 
+            "sizex": 2, 
+            "col": 1, 
+            "helpTextType": "none", 
+            "readOnly": false, 
+            "helpText": " ", 
+            "layoutType": "field", 
+            "fieldId": "a6l61", 
+            "id": "5d17bb6f6601e9c9b97293f5", 
+            "row": 1
+        }
+    ], 
+    "name": "testapp2", 
+    "acronym": "TES", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "maxTrackingId": 0, 
+    "trackingFieldId": "5d17bb524f8ed70015882749", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "aaevpDYEJeR_QEvNX", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2019-06-29T19:26:11.014Z", 
+    "$meta": {}, 
+    "fields": [
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "TES-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5d17bb524f8ed70015882749"
+        }, 
+        {
+            "key": "text", 
+            "name": "Text", 
+            "required": false, 
+            "prefix": "", 
+            "id": "a6l61", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "suffix": ""
+        }
+    ], 
+    "workspaces": [
+        "5d17bb534f8ed7001588280a"
+    ], 
+    "type": "Application", 
+    "id": "aMrFTDpV3JyezNKpU", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
