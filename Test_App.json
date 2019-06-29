@@ -68,18 +68,30 @@
             "row": 3
         }, 
         {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2, 
+            "sizey": 0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a64fd", 
+            "id": "5d17bb0e2f6e9c902ce187b3", 
+            "row": 3
+        }, 
+        {
             "name": "Text", 
             "visible": true, 
             "required": false, 
             "sizex": 2, 
-            "col": 3, 
+            "col": 1, 
             "helpTextType": "none", 
             "readOnly": false, 
             "helpText": " ", 
             "layoutType": "field", 
-            "fieldId": "a64fd", 
-            "id": "5d17bb0e2f6e9c902ce187b3", 
-            "row": 3
+            "fieldId": "ad1md", 
+            "id": "5d17bb221c94d66eb62e5cb3", 
+            "row": 4
         }
     ], 
     "name": "Test App", 
@@ -94,7 +106,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2019-06-29T19:00:06.955Z", 
+    "modifiedDate": "2019-06-29T19:25:03.152Z", 
     "$meta": {}, 
     "fields": [
         {
@@ -190,6 +202,25 @@
             "name": "Text (4)"
         }, 
         {
+            "key": "text-5", 
+            "supportsMultipleOutputMappings": false, 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "a64fd", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "$mapped": true, 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text (5)"
+        }, 
+        {
             "supportsMultipleOutputMappings": false, 
             "name": "Tracking Id", 
             "$type": "Core.Models.Fields.TrackingField, Core", 
@@ -200,11 +231,11 @@
             "id": "5d14eb30add18900145fd55b"
         }, 
         {
-            "key": "text-5", 
-            "name": "Text (5)", 
+            "key": "text-6", 
+            "name": "Text (6)", 
             "required": false, 
             "prefix": "", 
-            "id": "a64fd", 
+            "id": "ad1md", 
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
