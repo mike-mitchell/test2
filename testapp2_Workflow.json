@@ -1,0 +1,49 @@
+{
+    "isExpanded": true, 
+    "nodeType": "root", 
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "parentId": null, 
+    "$validationMessages": [], 
+    "disabled": false, 
+    "depth": 0, 
+    "isCurrent": false, 
+    "text": "testapp2", 
+    "stages": [
+        {
+            "isExpanded": true, 
+            "conditionType": "defaultActions", 
+            "repeats": [], 
+            "nodeType": "stage", 
+            "name": "Default Action(s)", 
+            "$alert": false, 
+            "actions": [
+                {
+                    "nodeType": "action", 
+                    "name": "New action", 
+                    "$alert": true, 
+                    "$validationMessages": [
+                        "Incomplete"
+                    ], 
+                    "disabled": false, 
+                    "depth": 2, 
+                    "actionType": 0, 
+                    "isCurrent": true, 
+                    "parentId": "5d17bb7fb7c1a689c9e7fb8d", 
+                    "id": "5d17bb8323cce40ad4762b52"
+                }
+            ], 
+            "draggable": false, 
+            "depth": 1, 
+            "$validationMessages": [], 
+            "isCurrent": false, 
+            "parentId": "aFZdSgO9_52yNEVfn", 
+            "stages": [], 
+            "id": "5d17bb7fb7c1a689c9e7fb8d"
+        }
+    ], 
+    "applicationId": "aMrFTDpV3JyezNKpU", 
+    "id": "aFZdSgO9_52yNEVfn", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
