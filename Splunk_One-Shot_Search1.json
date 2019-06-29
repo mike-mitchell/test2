@@ -1,0 +1,11 @@
+{
+    "name": "Splunk One-Shot Search1", 
+    "$type": "Core.Models.Integrations.Menu.MenuItem, Core", 
+    "disabled": false, 
+    "taskId": "a8a_Yp1bsVFmDJ0Uf", 
+    "parentId": "a3oGpApyJH6gSqWtk", 
+    "applicationId": "a3oGpApyJH6gSqWtk", 
+    "hidden": false, 
+    "type": "task", 
+    "id": "a70GKlakOEFFkFAhO"
+}
